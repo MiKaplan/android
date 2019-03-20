@@ -7,14 +7,26 @@
     tools:context=".MainActivity">
 
     <TextView
-        android:id="@+id/HelloWorld"
+        android:id="@+id/tv_counter"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Hello World!"
-        android:textSize="35sp"
+
+        android:background="@color/tvBackground"
+        android:textSize="20sp"
+        android:textColor="@color/tvTextColor"
         app:layout_constraintBottom_toBottomOf="parent"
         app:layout_constraintLeft_toLeftOf="parent"
         app:layout_constraintRight_toRightOf="parent"
         app:layout_constraintTop_toTopOf="parent" />
+
+    <Button
+        android:id="@+id/button"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_marginTop="8dp"
+        android:text="@string/go_to_activity_two"
+        app:layout_constraintTop_toBottomOf="@+id/HelloWorld"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="123dp" />
 
 </android.support.constraint.ConstraintLayout>
