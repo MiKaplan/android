@@ -7,51 +7,50 @@
     android:orientation="vertical"
     tools:context=".MainActivity">
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="72dp">
-    <EditText
-        android:id="@+id/etName"
-        android:layout_width="0dp"
-        android:layout_height="match_parent"
-        android:layout_weight="1"
-        android:background="@null"
-        android:hint="@string/name"
-        android:padding="16dp"
-        android:textSize="16sp"
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="72dp">
 
-        android:autofillHints="" />
-    <Button
-        android:id="@+id/btmAdd"
-        android:layout_width="52dp"
-        android:layout_height="52dp"
-        android:text="@string/btnAdd"
-        android:background="#fafafa"
+        <EditText
+            android:id="@+id/etName"
+            android:layout_width="0dp"
+            android:layout_height="match_parent"
+            android:layout_weight="1"
+            android:background="@null"
+            android:hint="@string/name"
+            android:padding="16dp"
+            android:textSize="16sp" />
 
-        />
-</LinearLayout>
+        <Button
+            android:id="@+id/btmAdd"
+            android:layout_width="52dp"
+            android:layout_height="52dp"
+            android:background="@color/btnColorBackground"
+            android:text="@string/btnAdd"
 
-<LinearLayout
-    android:layout_width="match_parent"
-    android:layout_height="48dp">
-    <TextView
-        android:id="@+id/tvPoint"
-        android:paddingLeft="16dp"
-        android:layout_width="wrap_content"
-        android:layout_height="24dp"
-        />
-    <TextView
-        android:id="@+id/tvPriority"
-        android:layout_width="wrap_content"
-        android:layout_height="24dp"
-        android:text="@string/priority_4"
-        android:textColor="#8a000000"
-        android:textSize="14sp"
-        android:lineSpacingExtra="10sp"
-        android:fontFamily="sans-serif-medium"
-        android:paddingLeft="32dp"/>
+            />
+    </LinearLayout>
 
-</LinearLayout>
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="48dp">
+
+        <TextView
+            android:id="@+id/tvPoint"
+            android:layout_width="wrap_content"
+            android:layout_height="24dp"
+            android:paddingLeft="16dp" />
+
+        <TextView
+            android:id="@+id/tvPriority"
+            android:layout_width="match_parent"
+            android:layout_height="24dp"
+            android:paddingLeft="8dp"
+            android:text="@string/priority_4"
+            android:textColor="@color/tvPriorityTextColor"
+            android:textSize="14sp" />
+
+    </LinearLayout>
 
 </LinearLayout>
 
