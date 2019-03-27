@@ -5,4 +5,8 @@
     <color name="colorAccent">#D81B60</color>
     <color name="btnColorBackground">#fafafa</color>
     <color name="tvPriorityTextColor">#8a000000</color>
+    <color name="pointColorRed">#f44336</color>
+    <color name="pointColorYellow">#fdd735</color>
+    <color name="pointColorGreen">#21897b</color>
+    <color name="pointColorBlue">#2396f3</color>
 </resources>
